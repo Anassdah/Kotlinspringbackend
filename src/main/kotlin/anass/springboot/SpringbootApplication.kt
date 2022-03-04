@@ -39,7 +39,7 @@ class SpringbootApplication : CommandLineRunner {
         categoryRepository?.save(Category(null,"computers",null,null))
         categoryRepository?.save(Category(null,"Printers",null,null))
         categoryRepository?.save(Category(null,"Smartphones",null,null))
-        categoryRepository?.save(Category(null,"Ipad",null,null))
+        categoryRepository?.save(Category(null,"Microwaves",null,null))
 
         categoryRepository?.findAll()?.forEach { category : Category? ->
 
